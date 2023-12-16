@@ -1,8 +1,9 @@
-import Post from "../../Components/Post/Post";
+import PostGrid from "../../Components/PostGrid/PostGrid";
 
 function Blog () {
+    
     return (
-        <Post />
+        <PostGrid />
     )
 }
 

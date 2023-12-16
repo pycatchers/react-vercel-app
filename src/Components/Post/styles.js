@@ -9,12 +9,12 @@ export default {
     },
     left: {
         backgroundColor: '#ccc',
-        width: '10%',
+        width: '5%',
         height: '10rem'
     },
     right: {
         backgroundColor: 'white',
-        width: '90%',
+        width: '93%',
         height: '10rem'
     }
 }
