@@ -21,12 +21,12 @@ function PostGrid() {
     return (
         <div style={{
             display: 'grid',
-            width: '100vh',
-            gridAutoFlow: 'column',
+            // gridAutoFlow: 'column',
             gridTemplateColumns: 'repeat(4, 1fr)',
-            gridAutoColumns: '0.33333fr',
-            gridTemplateRows: '200px 200px',
-            gridAutoRows: '200px'
+            rowGap: 10,
+            // gridAutoColumns: '0.33333fr',
+            // gridTemplateRows: 'repeat(2, 1fr)',
+            // gridAutoRows: '200px'
         }}>
             {
                 allPosts.map((post, index) => 
